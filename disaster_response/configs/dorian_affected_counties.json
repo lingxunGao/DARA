@@ -1,0 +1,41 @@
+{
+  "rule_id": "dorian_fema_dr4468_pa_ag_20191209",
+  "event": "Dorian",
+  "disaster_declaration": "FEMA-4468-DR-FL",
+  "definition": "Counties designated for Public Assistance categories A-G, including Amendment No. 1 issued 2019-12-09",
+  "initial_declaration_date": "2019-10-21",
+  "amendment_date": "2019-12-09",
+  "incident_start": "2019-08-28",
+  "incident_end": "2019-09-09",
+  "county_count": 14,
+  "initial_counties": ["Brevard", "Duval", "Flagler", "Indian River", "Martin", "Nassau", "Osceola", "Palm Beach", "Putnam", "Seminole", "St. Johns", "St. Lucie"],
+  "added_counties": ["Broward", "Volusia"],
+  "counties": ["Brevard", "Broward", "Duval", "Flagler", "Indian River", "Martin", "Nassau", "Osceola", "Palm Beach", "Putnam", "Seminole", "St. Johns", "St. Lucie", "Volusia"],
+  "sources": [
+    {
+      "title": "President Donald J. Trump Approves Florida Disaster Declaration",
+      "publisher": "White House historical archive",
+      "publication_date": "2019-10-21",
+      "url": "https://trumpwhitehouse.archives.gov/briefings-statements/president-donald-j-trump-approves-florida-disaster-declaration-3/",
+      "supports": "Initial 12 counties; Dorian incident period August 28 to September 9, 2019"
+    },
+    {
+      "title": "Broward and Volusia Now Eligible for Help with Repair, Response Costs",
+      "publisher": "Florida Division of Emergency Management / FEMA",
+      "publication_date": "2019-12-11",
+      "url": "https://www.floridadisaster.org/news-media/news/20191210-broward-and-volusia-now-eligible-for-help-with-repair-response-costs/",
+      "supports": "Adds Broward and Volusia; explicitly lists previous 12 counties"
+    },
+    {
+      "title": "FEMA-DR-4468-FL Situation Report No. 3",
+      "publisher": "FEMA Joint Field Office",
+      "publication_date": "2020-01-03",
+      "url": "https://content.govdelivery.com/attachments/USDHSFEMA/2020/01/03/file_attachments/1352101/SITREP3-FL-4468-01032020.pdf",
+      "supports": "Amendment No. 1 issued December 9, 2019 adds Broward and Volusia"
+    }
+  ],
+  "interpretation": "Retrospective official response/recovery designation; not a measure of equal damage in every county or at every hour",
+  "complement_interpretation": "Not designated for this PA category; not proof of no storm impact",
+  "selection_policy": "Chosen from external official records, without using flow values or model prediction errors",
+  "evaluation_only": true
+}

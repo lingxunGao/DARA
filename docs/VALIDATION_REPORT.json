@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-17",
+  "python": "3.8",
+  "torch": "2.4.1+cu121",
+  "numpy": "1.24.3",
+  "checked_checkpoints": 6,
+  "all_parameter_initializations_exact": true,
+  "strict_checkpoint_loading": true,
+  "full_florida_test_exact": true,
+  "full_florida_test_windows": 344,
+  "full_florida_nodes": 67,
+  "arrays_compared": [
+    "online prediction",
+    "frozen prediction",
+    "target",
+    "starts",
+    "node names"
+  ],
+  "caveat": "Verified on the original runtime. Bitwise identity is not promised on other hardware or dependency versions.",
+  "synthetic_training_passed": true,
+  "synthetic_frozen_online_evaluation_passed": true,
+  "synthetic_six_variant_ablation_passed": true,
+  "split_and_future_label_tests_passed": true,
+  "extracted_zip_checksums_verified": true,
+  "extracted_zip_unit_tests_passed": true,
+  "extracted_zip_complete_synthetic_ablation_passed": true,
+  "no_original_workspace_import_required": true
+}
